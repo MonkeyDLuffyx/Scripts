@@ -1,0 +1,15 @@
+--https://www.roblox.com/games/6490016198/Slayer-Tycoon-v1-1
+
+_G.Toggle = false --Change to true to enable the bag grabber, Change to false to disable.
+
+while wait(.01) do
+  if _G.Toggle == true then
+for i,v in pairs(workspace:GetChildren())do
+    
+if v.Name == "MoneyBag" then --Change MoneyBag to OrePart for mishirin ores too. Yes, it picks up boss bag too.
+game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.CFrame = v.CFrame
+fireproximityprompt(v.ProximityPrompt)
+      end
+    end
+  end
+end
