@@ -1,6 +1,3 @@
-
-_G.Toggle = enabled --Change to enabled to enable the money farm, Change to anything to disable.
-
 while wait(.01) do
   if _G.Toggle == enabled then
 --Wisteria Forest
