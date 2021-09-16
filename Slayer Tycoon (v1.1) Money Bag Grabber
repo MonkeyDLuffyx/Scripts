@@ -1,7 +1,3 @@
---https://www.roblox.com/games/6490016198/Slayer-Tycoon-v1-1
-
-_G.Toggle = false --Change to true to enable the bag grabber, Change to false to disable.
-
 while wait(.01) do
   if _G.Toggle == true then
 for i,v in pairs(workspace:GetChildren())do
