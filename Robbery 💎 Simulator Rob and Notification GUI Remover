@@ -1,0 +1,4 @@
+RobUI =  game:GetService("Players").LocalPlayer.PlayerGui.RobUI
+ItemSoldUI = game:GetService("Players").LocalPlayer.PlayerGui.ItemSoldUI
+ItemSoldUI:Destroy()
+RobUI:Destroy()
