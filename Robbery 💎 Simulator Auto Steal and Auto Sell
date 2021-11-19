@@ -1,0 +1,9 @@
+--Script efficiency completely depends on lag either it be from server or client.
+while true do
+local Target = game:GetService("ReplicatedStorage").Aero.AeroRemoteServices.MissionsService.AttemptToSellPlayerBag;
+Target:InvokeServer();
+
+local Target = game:GetService("ReplicatedStorage").Aero.AeroRemoteServices.RobService.GivePlayerItem;
+Target:InvokeServer();
+wait(.01)
+end
